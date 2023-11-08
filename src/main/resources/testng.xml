@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="Test01">
+        <classes>
+            <class name="BAITAP.testcase01" />
+        </classes>
+    </test>
+    <test name="Test02">
+        <classes>
+            <class name="BAITAP.testcase02" />
+        </classes>
+    </test>
+    <!-- Repeat the above block for testcase03 to testcase10 -->
+</suite>

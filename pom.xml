@@ -64,5 +64,19 @@
 </dependencies>
 
     </dependencies>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version> <!-- Use the appropriate version -->
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> <!-- Adjust the path to your testng.xml file -->
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
